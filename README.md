@@ -52,5 +52,29 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
+### 3. Install Dependencies
 
+```bash
+pip install -r requirements.txt
+
+```
+### 4. Set Up Environment Variables
+```bash
+OPENAI_API_KEY=your_openai_key
+# ANTHROPIC_API_KEY=your_claude_key (optional)
+
+```
+
+### 🏃‍♂️ Run the Agent
+```bash
+python main.py
+
+```
+📄 License
+MIT License. Feel free to modify or expand it for academic, commercial, or personal projects.
+
+
+## Indrajit Gupta
+## Electronics & Communication Engineering @ KUET
+## Project guided by OpenAI & LangChain tools
 
