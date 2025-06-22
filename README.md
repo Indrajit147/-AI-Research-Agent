@@ -44,7 +44,13 @@ An intelligent research assistant powered by LangChain, OpenAI GPT-4o-mini, and 
 ```bash
 git clone https://github.com/your-username/ai-research-agent.git
 cd ai-research-agent
+```
 
-### 1. Clone the Repository
 ### 2. Create and Activate a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+
 
