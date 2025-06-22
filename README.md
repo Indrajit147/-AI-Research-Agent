@@ -42,7 +42,7 @@ An intelligent research assistant powered by LangChain, OpenAI GPT-4o-mini, and 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-research-agent.git
+git clone https://github.com/Indrajit147/-AI-Research-Agent.git
 cd ai-research-agent
 ```
 
