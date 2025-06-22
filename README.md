@@ -29,11 +29,11 @@ An intelligent research assistant powered by LangChain, OpenAI GPT-4o-mini, and 
 ---
 
 ## 🧩 Project Structure
-├── main.py # Agent setup and execution script</br>
-├── tools.py # Search, Wiki, and Save tools</br>
-├── .env # API keys and secrets</br>
-├── requirements.txt # Python dependencies</br>
-└── research_output.txt # File where results are saved</br>
+├── main.py </br>
+├── tools.pys</br>
+├── .env</br>
+├── requirements.txt </br>
+└── research_output.txt </br>
 
 ---
 
