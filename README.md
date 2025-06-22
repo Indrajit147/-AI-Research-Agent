@@ -74,9 +74,11 @@
 
   <h2>🧰 Installation</h2>
   <pre class="code-block">
+    ```
 git clone https://github.com/yourusername/smart-info-assistant.git
 cd smart-info-assistant
 pip install -r requirements.txt
+    ```
   </pre>
 
   <p>Create a <code>.env</code> file:</p>
@@ -102,22 +104,6 @@ smart-info-assistant/
 └── research_*.md     # Output files
   </pre>
 
-  <h2>✅ Example Output</h2>
-  <pre class="code-block">
-# 📌 Topic: COVID-19 impact in Bangladesh
-
-## 🧾 Summary
-Bangladesh faced significant health, social, and economic impacts during the COVID-19 pandemic. Lockdowns, overwhelmed hospitals, and vaccine rollouts shaped national response efforts...
-
-## 📚 Sources
-- Wikipedia: COVID-19 in Bangladesh
-- bdnews24.com
-- World Bank COVID Dashboard
-
-## 🧰 Tools Used
-- wikipedia
-- search
-  </pre>
 
   <h2>💡 Ideas to Extend</h2>
   <ul>
