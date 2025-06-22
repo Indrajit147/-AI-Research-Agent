@@ -29,4 +29,22 @@ An intelligent research assistant powered by LangChain, OpenAI GPT-4o-mini, and 
 ---
 
 ## 🧩 Project Structure
+├── main.py # Agent setup and execution script
+├── tools.py # Search, Wiki, and Save tools
+├── .env # API keys and secrets
+├── requirements.txt # Python dependencies
+└── research_output.txt # File where results are saved
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ai-research-agent.git
+cd ai-research-agent
+
+### 1. Clone the Repository
+### 2. Create and Activate a Virtual Environment
 
