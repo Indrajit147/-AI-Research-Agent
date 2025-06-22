@@ -1,46 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Smart Info Assistant</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem auto;
-      max-width: 800px;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-      padding: 1rem;
-    }
-    h1, h2, h3 {
-      color: #1a73e8;
-    }
-    code, pre {
-      background-color: #eee;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-    }
-    .tag {
-      background-color: #cce5ff;
-      color: #004085;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
-    .code-block {
-      background: #272822;
-      color: #f8f8f2;
-      padding: 1em;
-      border-radius: 8px;
-      overflow-x: auto;
-      font-family: monospace;
-    }
-  </style>
-</head>
-<body>
-
   <h1>📘 Smart Info Assistant</h1>
   <p><em>An intelligent summarization assistant that combines Wikipedia and web search to generate rich, structured summaries on any topic.</em></p>
 
@@ -74,11 +32,9 @@
 
   <h2>🧰 Installation</h2>
   <pre class="code-block">
-    ```
 git clone https://github.com/yourusername/smart-info-assistant.git
 cd smart-info-assistant
 pip install -r requirements.txt
-    ```
   </pre>
 
   <p>Create a <code>.env</code> file:</p>
