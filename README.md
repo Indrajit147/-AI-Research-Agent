@@ -1,81 +1,109 @@
-# 🤖 AI Research Agent
+📘 Smart Info Assistant
+An intelligent summarization assistant that combines Wikipedia and web search to generate rich, structured summaries on any topic.
 
-An intelligent research assistant powered by LangChain, OpenAI GPT-4o-mini, and real-time tools like DuckDuckGo and Wikipedia. It performs multi-step research using agent-based reasoning and returns structured outputs with options to save results locally.
+<!-- optional demo gif -->
 
----
+🔍 What It Does
+🧠 Uses OpenAI’s GPT-4o-mini to generate long, informative summaries
 
-## 🧠 Features
+🌐 Combines data from Wikipedia and DuckDuckGo search
 
-- 🔍 Web search via DuckDuckGo  
-- 📚 Wikipedia query integration  
-- 📄 Structured response parsing using Pydantic  
-- 🛠 Tool-calling agent via LangChain  
-- 💾 Save research results to `.txt` with timestamp  
-- 🔀 Easily switch between OpenAI and Anthropic models
+📄 Returns structured output (topic, summary, sources, tools used)
 
----
+💾 Saves results to markdown or text files
 
-## 🚀 How It Works
+🖥️ Use it in CLI or as a Streamlit web app
 
-1. You provide a research query.
-2. The agent uses tools like:
-   - DuckDuckGo for live web search
-   - Wikipedia for encyclopedic facts
-   - A local file saver tool
-3. The response is parsed into a structured format:
-   - `topic`, `summary`, `sources`, `tools_used`
-4. Final result is printed and optionally saved to a `.txt` file.
+🚀 Demo (Streamlit UI)
 
----
 
-## 🧩 Project Structure
-├── main.py </br>
-├── tools.pys</br>
-├── .env</br>
-├── requirements.txt </br>
-└── research_output.txt </br>
+🛠️ Features
+📚 Accurate web and wiki integration
 
----
+✅ Pydantic validation for safe, structured output
 
-## 🔧 Setup Instructions
+📦 Modular: clean separation of tools.py, main.py, and app.py
 
-### 1. Clone the Repository
+🧼 Handles noisy web data with cleaning & error handling
 
-```bash
-git clone https://github.com/Indrajit147/AI-Research-Agent.git
-cd ai-research-agent
-```
+🧑‍💻 Developer-friendly CLI + beautiful UI
 
-### 2. Create and Activate a Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+🧪 Tech Stack
+LangChain
 
-### 3. Install Dependencies
+OpenAI GPT-4o
 
-```bash
+DuckDuckGo Search API
+
+Streamlit
+
+Pydantic
+
+Rich
+
+🧰 Installation
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/smart-info-assistant.git
+cd smart-info-assistant
 pip install -r requirements.txt
+Add your OpenAI API key to a .env file:
 
-```
-### 4. Set Up Environment Variables
-```bash
-OPENAI_API_KEY=your_openai_key
-# ANTHROPIC_API_KEY=your_claude_key (optional)
-
-```
-
-### 🏃‍♂️ Run the Agent
-```bash
+ini
+Copy
+Edit
+OPENAI_API_KEY=your_key_here
+🧑‍💻 Usage
+🔧 Run CLI version:
+bash
+Copy
+Edit
 python main.py
+🌐 Run Streamlit UI:
+bash
+Copy
+Edit
+streamlit run app.py
+📁 Project Structure
+bash
+Copy
+Edit
+smart-info-assistant/
+├── main.py           # CLI version
+├── app.py            # Streamlit UI
+├── tools.py          # Modular tools
+├── .env              # API keys
+├── requirements.txt  # Dependencies
+└── research_*.md     # Saved outputs
+✅ Example Output
+Query: COVID-19 impact in Bangladesh
 
-```
----
-📄 License
-MIT License. Feel free to modify or expand it for academic, commercial, or personal projects.
----
+markdown
+Copy
+Edit
+# 📌 Topic: COVID-19 impact in Bangladesh
 
-Indrajit Gupta</br>
-Electronics & Communication Engineering @ KUET </br>
-Project guided by OpenAI & LangChain tools
----
+## 🧾 Summary
+Bangladesh faced significant health, social, and economic impacts during the COVID-19 pandemic. Lockdowns, overwhelmed hospitals, and vaccine rollouts shaped national response efforts. NGOs played a major role. The economy suffered during early lockdowns but saw gradual recovery post-2021...
+
+## 📚 Sources
+- Wikipedia: COVID-19 in Bangladesh
+- bdnews24.com
+- World Bank COVID Dashboard
+
+## 🧰 Tools Used
+- wikipedia
+- search
+💡 Ideas to Extend
+Add YouTube/Arxiv scraping tools
+
+Export to PDF or Notion
+
+Track saved queries and search history
+
+Deploy on Streamlit Cloud or HuggingFace Spaces
+
+📜 License
+MIT License — free to use, improve, and share
+
