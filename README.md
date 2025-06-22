@@ -70,9 +70,11 @@ OPENAI_API_KEY=your_openai_key
 python main.py
 
 ```
+---
 📄 License
 MIT License. Feel free to modify or expand it for academic, commercial, or personal projects.
 
+---
 </br>
 Indrajit Gupta</br>
 Electronics & Communication Engineering @ KUET </br>
