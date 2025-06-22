@@ -73,8 +73,8 @@ python main.py
 📄 License
 MIT License. Feel free to modify or expand it for academic, commercial, or personal projects.
 
-
-## Indrajit Gupta
-## Electronics & Communication Engineering @ KUET
-## Project guided by OpenAI & LangChain tools
+</br>
+Indrajit Gupta
+Electronics & Communication Engineering @ KUET
+Project guided by OpenAI & LangChain tools
 
